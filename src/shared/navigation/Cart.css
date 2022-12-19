@@ -1,0 +1,30 @@
+.cart_wrapper {
+  height: 50px;
+  width: 127px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.cart_icon {
+  cursor: pointer;
+}
+.cart_icon:hover path {
+  fill: var(--color_primary);
+}
+.cart_count {
+  font-family: var(--primary_font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--color_primary);
+  cursor: pointer;
+}
+.cart_count:hover {
+  background-color: var(--color_primary_hover);
+}

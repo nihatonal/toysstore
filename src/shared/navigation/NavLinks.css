@@ -1,0 +1,22 @@
+.navbar {
+  width: 391px;
+  height: 48px;
+  display: grid;
+  align-items: center;
+  column-gap: 36px;
+  margin: 0 602px 0 57px;
+}
+
+.nav-item {
+  font-family: var(--primary_font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--color_primary_text);
+  text-align: center;
+  transition: all 0.2s;
+}
+.nav-item:hover {
+  color: var(--color_primary);
+}
