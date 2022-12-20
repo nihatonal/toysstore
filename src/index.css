@@ -22,6 +22,7 @@ html {
 
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 /**
@@ -39,7 +40,7 @@ main {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin: 0;
 }
 
 /* Grouping content
@@ -350,19 +351,24 @@ template {
 [hidden] {
   display: none;
 }
-
+p{
+  margin: 0;
+}
 :root {
   --color_primary: #a5c926;
   --color_primary_hover: #86aa03;
   --color_primary_text: #111111;
   --color_secondary_text: #333333;
   --color_grey: #999999;
+  --bg-grey: #f8f8f8;
   --color_white: #ffffff;
   --color_pink: #fb416b;
   --primary_font-family: "Open Sans", sans-serif;
   --secondary_font-family: "Varela Round", sans-serif;
 }
-
+.container {
+  width: 100%;
+}
 /* @media screen and (max-width: 767px) {
   h2 {
     font-size: 24px;

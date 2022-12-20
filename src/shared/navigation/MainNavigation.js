@@ -6,7 +6,7 @@ import TopBar from './TopBar';
 import './MainNavigation.css';
 const MainNavigation = (props) => {
     return (
-        <div className=''>
+        <div className='main-navigation_container'>
             <TopBar />
             <MainHeader />
         </div >

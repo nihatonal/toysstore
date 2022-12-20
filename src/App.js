@@ -1,7 +1,8 @@
 
-import { BrowserRouter, Routes } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import MainNavigation from './shared/navigation/MainNavigation'
+import MainNavigation from './shared/navigation/MainNavigation';
+import Home from "./HomePage/page/Home";
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <BrowserRouter>
       <MainNavigation />
       <Routes>
+        <Route exact path="/" element={<Home />} />
         {/* <Route exact path="/" element={<Home />} /> */}
       </Routes>
       {/* <Footer /> */}

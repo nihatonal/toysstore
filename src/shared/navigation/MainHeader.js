@@ -8,7 +8,7 @@ function MainHeader(props) {
         <div className='navbar_container'>
             <div className='navbar_wrapper'>
                 <h2 className='logo'>ToyStore</h2>
-                <NavLinks style={{ gridTemplateColumns: "1fr 1fr 1fr 1fr" }} />
+                <NavLinks style={{ width:'391px'}} />
                 <Cart />
             </div>
         </div >

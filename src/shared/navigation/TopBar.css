@@ -3,13 +3,12 @@
   background-color: var(--color_primary);
 }
 .topbar_wrapper {
-  width: 1200px;
   height: 32px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 15px;
-  margin: 0 auto;
+  margin: 0 120px;
 }
 .topbar_content {
   display: flex;
