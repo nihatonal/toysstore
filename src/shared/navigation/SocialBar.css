@@ -1,0 +1,19 @@
+.social_bar_wrapper {
+  width: 164px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.social_item svg {
+  width: 18px;
+  height: 18px;
+  color: #fff;
+  border-radius: 50%;
+  padding: 2px;
+}
+.social_item:hover svg {
+  box-shadow: 0 0 5px var(--color_pink);
+  transition: all 0.2s;
+}

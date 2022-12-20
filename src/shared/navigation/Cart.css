@@ -7,9 +7,11 @@
 }
 .cart_icon {
   cursor: pointer;
+  
 }
 .cart_icon:hover path {
   fill: var(--color_primary);
+  transition: all 0.3s;
 }
 .cart_count {
   font-family: var(--primary_font-family);
@@ -24,6 +26,7 @@
   border-radius: 50%;
   background-color: var(--color_primary);
   cursor: pointer;
+  transition: all 0.3s;
 }
 .cart_count:hover {
   background-color: var(--color_primary_hover);

@@ -357,6 +357,8 @@ template {
   --color_primary_text: #111111;
   --color_secondary_text: #333333;
   --color_grey: #999999;
+  --color_white: #ffffff;
+  --color_pink: #fb416b;
   --primary_font-family: "Open Sans", sans-serif;
   --secondary_font-family: "Varela Round", sans-serif;
 }
