@@ -1,0 +1,71 @@
+.toys_container {
+  height: 460px;
+  display: flex;
+  justify-content: center;
+}
+.toys_wrapper {
+  width: 1200px;
+  height: 188px;
+  display: flex;
+  margin-top: 152px;
+}
+.toys-item {
+  width: 570px;
+  height: 188px;
+  border-radius: 16px;
+  position: relative;
+}
+.toys-item:first-child {
+  background-color: var(--color_orange);
+  margin-right: 30px;
+}
+.toys-item:last-child {
+  background-color: var(--color_pink);
+}
+.toys-item_img {
+  position: absolute;
+  left: 15px;
+  bottom: 26px;
+}
+.toys-item:last-child .toys-item_img {
+  left: 329px;
+  bottom: 17px;
+}
+.toys-item_content {
+  width: 213px;
+  height: 92px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 48px 0 0 264px;
+}
+.toys-item:last-child .toys-item_content {
+  margin-left: 127px;
+}
+.toys-item_content-title {
+  font-family: var(--secondary_font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  color: var(--color_white);
+}
+.toys-item_content-btn {
+  width: 112px;
+  height: 40px;
+  border-radius: 20px;
+  background: var(--color_white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary_text_color);
+}
+.toys-item_content-btn:hover {
+  box-shadow: 0 0 15px var(--color_pink);
+}
+.toys-item:last-child .toys-item_content-btn {
+  margin-left: 67px;
+}
+.toys-item:last-child .toys-item_content-btn:hover {
+  box-shadow: 0 0 15px var(--color_orange);
+}

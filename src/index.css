@@ -23,6 +23,7 @@ html {
 body {
   margin: 0;
   overflow-x: hidden;
+  
 }
 
 /**
@@ -351,7 +352,7 @@ template {
 [hidden] {
   display: none;
 }
-p{
+p {
   margin: 0;
 }
 :root {
@@ -360,7 +361,9 @@ p{
   --color_primary_text: #111111;
   --color_secondary_text: #333333;
   --color_grey: #999999;
+  --color_orange: #ffc12c;
   --bg-grey: #f8f8f8;
+  --bg_grey-d: #dddddd;
   --color_white: #ffffff;
   --color_pink: #fb416b;
   --primary_font-family: "Open Sans", sans-serif;
@@ -368,6 +371,11 @@ p{
 }
 .container {
   width: 100%;
+}
+.section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 /* @media screen and (max-width: 767px) {
   h2 {

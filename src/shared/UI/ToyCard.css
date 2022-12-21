@@ -1,0 +1,41 @@
+.toycard_wrapper {
+  width: 270px;
+  height: 328px;
+  background: var(--color_white);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+.toycard_name {
+  font-family: var(--secondary_font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--color_primary_text);
+  margin: 25px 0 12px;
+}
+.toycard_btn {
+  border: none;
+  width: 92px;
+  height: 24px;
+  background: var(--color_primary);
+  color: var(--color_white);
+  font-family: var(--primary_font_family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 16px;
+  cursor: pointer;
+}
+.toycard_btn:hover {
+  background: var(--color_primary_hover);
+  transition: all 0.2s;
+}
