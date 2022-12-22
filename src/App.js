@@ -11,10 +11,10 @@ import { useCart } from "./shared/hooks/auth-hook";
 import './App.css';
 
 function App() {
-  const { buy, shop } = useCart();
+  const { buy, removeItem, shop, showModal, closeModal, show } = useCart();
 
   return (
-    <ShareContext.Provider value={{ buy: buy, shop: shop }}>
+    <ShareContext.Provider value={{ buy: buy, removeItem: removeItem, shop: shop, showModal: showModal, closeModal: closeModal, show: show }}>
       <BrowserRouter>
         <MainNavigation />
         <Routes>

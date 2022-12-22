@@ -2,8 +2,7 @@ import React from 'react';
 
 import Hero from '../components/Hero';
 import Toys from '../components/Toys';
-import StuffedToys from '../components/StuffedToys';
-import WoodenToys from '../components/WoodenToys';
+import Shopping from '../components/Shopping';
 
 import './Home.css'
 function Home(props) {
@@ -11,8 +10,8 @@ function Home(props) {
         <div className='home_container container'>
             <Hero />
             <Toys />
-            <StuffedToys />
-            <WoodenToys />
+            <Shopping />
+
         </div>
     );
 }

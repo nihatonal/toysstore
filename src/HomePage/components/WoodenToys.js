@@ -8,6 +8,7 @@ import ToysSlider from '../../shared/UI/ToysSlider';
 import './StuffedToys.css';
 
 function StuffedToys(props) {
+
     return (
         <section className='shop_container section'>
             <div className="shop_wrapper">
@@ -19,7 +20,7 @@ function StuffedToys(props) {
                     </NavLink>
                 </div>
 
-                <ToysSlider data={DataWoodenToys} />
+                <ToysSlider data={DataWoodenToys} onClick={props.onClick} />
 
             </div>
         </section>
