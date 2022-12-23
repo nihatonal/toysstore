@@ -13,7 +13,7 @@ function StuffedToys(props) {
             <div className="shop_wrapper">
                 <div className="shopping_header">
                     <h3 className="shopping_title">Stuffed Animals</h3>
-                    <NavLink to='/' className='shopping_btn'>
+                    <NavLink to='/stuffedtoys' className='shopping_btn'>
                         See All Toys
                         <ReactSVG src={Arrow} className="arrow" />
                     </NavLink>

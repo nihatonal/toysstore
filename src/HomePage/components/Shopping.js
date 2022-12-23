@@ -1,7 +1,8 @@
 import React, { useContext, useEffect, useState } from 'react';
+import { DataWoodenToys } from '../../assets/DataWoodenToys'
+import { DataStuffedAnimals } from '../../assets/DataStuffedAnimals'
+import ToysCard from '../../shared/UI/ToysCard';
 
-import StuffedToys from './StuffedToys';
-import WoodenToys from './WoodenToys';
 import { ShareContext } from '../../shared/context/share-contex';
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import './Shopping.css'
@@ -37,8 +38,16 @@ function Shopping(props) {
 
     return (
         <div className='shopping-container'>
-            <StuffedToys onClick={cartHandler} />
-            <WoodenToys onClick={cartHandler} />
+            <ToysCard
+                titleSection={'Stuffed Animals'}
+                data={DataStuffedAnimals}
+                onClick={cartHandler}
+            />
+            <ToysCard
+                titleSection={'Wooden Toys'}
+                data={DataWoodenToys}
+                onClick={cartHandler}
+            />
 
             <div style={share.show ? { right: '10px' } : null} className="modal_wrapper">
                 <div className="modal_content">

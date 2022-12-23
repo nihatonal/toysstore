@@ -8,7 +8,6 @@
 }
 .cart_icon {
   cursor: pointer;
-  
 }
 .cart_icon:hover path {
   fill: var(--color_primary);
@@ -32,4 +31,3 @@
 .cart_count:hover {
   background-color: var(--color_primary_hover);
 }
-

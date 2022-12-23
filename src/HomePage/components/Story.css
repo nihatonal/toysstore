@@ -1,0 +1,53 @@
+.story-container {
+  height: 464px;
+  width: 100%;
+  background: url("../../assets/images/bgstory.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.story_content {
+  width: 800px;
+  height: 232px;
+  text-align: center;
+  color: var(--color_white);
+  font-family: var(--primary_font-family);
+  font-weight: 400;
+  padding: 0 41px;
+  margin-top: 120px;
+  text-shadow: 2px 2px 10px var(--color_primary_text);
+}
+.story_suptitle {
+  font-size: 13px;
+  line-height: 16px;
+}
+.story_title {
+  font-family: var(--secondary_font-family);
+  font-size: 36px;
+  line-height: 44px;
+  margin: 17px 0;
+}
+.story_desc {
+  font-size: 14px;
+  line-height: 24px;
+}
+.story_btn {
+  width: 64px;
+  height: 64px;
+  border: none;
+  background-color: var(--color_primary);
+  cursor: pointer;
+  margin-top: 24px;
+  transition: all 0.2s;
+}
+.story_btn:hover {
+  background-color: var(--color_primary_hover);
+}
+.story_btn:active {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px var(--color_primary_text);
+}
+.story_btn svg {
+  color: white;
+}

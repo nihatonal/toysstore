@@ -1,0 +1,66 @@
+.webflow_container {
+  height: 872px;
+}
+.webflow-wrapper {
+  width: 100%;
+  padding: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.webflow-title {
+  width: 447px;
+  margin: 0 auto;
+}
+.webflow-content-wrapper {
+  width: 1200px;
+  height: 424px;
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.webflow-content {
+  width: 500px;
+  height: 261px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-left: 15px ;
+}
+.webflow-content_line {
+  display: block;
+  height: 2px;
+  width: 70px;
+  background: var(--color_primary);
+}
+.webflow-content_desc {
+  font-family: var(--primary_font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--color_grey);
+}
+.webflow-content_btn {
+  width: 145px;
+  height: 48px;
+  text-align: center;
+  border: none;
+  border-radius: 24px;
+  color: var(--color_white);
+  background-color: var(--color_primary);
+  cursor: pointer;
+}
+.webflow-content_btn:hover {
+  background-color: var(--color_primary_hover);
+}
+.webflow-img_wrapper {
+  width: 567px;
+  height: 422px;
+  border-radius: 16px;
+  background-image: url("../../assets/images/webflowimage.svg");
+  background-position: center center;
+  background-size: cover;
+}

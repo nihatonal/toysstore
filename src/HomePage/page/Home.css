@@ -1,3 +1,27 @@
 .home_container {
   background: var(--bg-grey);
 }
+
+.section-header {
+  width: 600px;
+  height: 128px;
+}
+.section-title {
+  font-family: var(--secondary_font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 40px;
+  text-align: center;
+  color: var(--color_primary_text);
+}
+.section-suptitle {
+  font-family: var(--primary_font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color: var(--color_primary);
+  margin-bottom: 18px;
+}

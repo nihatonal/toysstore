@@ -1,10 +1,11 @@
 
-import React, { useContext, useEffect, useState } from 'react';
+import React from 'react';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import MainNavigation from './shared/navigation/MainNavigation';
 import Home from "./HomePage/page/Home";
+import Footer from './shared/footer/Footer';
 
 import { ShareContext } from "./shared/context/share-contex";
 import { useCart } from "./shared/hooks/auth-hook";
@@ -21,7 +22,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           {/* <Route exact path="/" element={<Home />} /> */}
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </BrowserRouter>
     </ShareContext.Provider>
   );

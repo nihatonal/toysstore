@@ -7,16 +7,12 @@ import { ShareContext } from '../../shared/context/share-contex';
 
 import './Cart.css';
 
-function Cart(props) {
+function Cart() {
     const share = useContext(ShareContext);
-    // useEffect(() => {
-    //     console.log(share.shop)
-    // }, [share.shop])
-    console.log(share.shop)
     return (
         <div className='cart_wrapper'>
-            <NavLink style={{ fontSize: '13px' }} className="nav-item" to='./cart'>Cart</NavLink>
-            <ReactSVG src={CartIcon} className="cart_icon" />
+            <NavLink style={{ fontSize: '13px' }} className="nav-item" to='/cart'>Cart</NavLink>
+            <NavLink className="nav-cart-icon" to='/cart'><ReactSVG src={CartIcon} className="cart_icon" /></NavLink>
             <p className="cart_count" onClick={() => share.showModal()}>{share.shop ? share.shop.length : 0}</p>
         </div >
     );
