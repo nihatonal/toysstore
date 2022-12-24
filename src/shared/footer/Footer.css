@@ -3,9 +3,15 @@
   height: 209px;
   background: var(--color_primary);
 }
+.footer_wrapper {
+  width: 1135px;
+  margin: 0 auto;
+  padding-top: 47px;
+}
 .footer_top-content {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .footer_logo {
   font-family: var(--secondary_font-family);
@@ -18,15 +24,39 @@
 .footer_nav {
   height: 32px;
   width: 350px;
+  margin-left: 80px;
 }
 .footer_nav .nav-item {
   color: #ffffff;
   font-size: 13px;
 }
-/* .footer_container .social_item svg {
-  width: 18px;
-  height: 18px;
-  color: #fff;
-  border-radius: 50%;
-  padding: 2px;
-} */
+.footer_nav .nav-item:hover {
+  text-shadow:  0 0 10px #fff;
+}
+.footer_bottom-content {
+  height: 71px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.footer_bottom-item {
+  font-family: var(--primary_font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+  color: var(--color_white);
+}
+.footer_bottom-item {
+  display: flex;
+  align-items: center;
+}
+.footer_bottom-item span {
+  display: block;
+  width: 3px;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 0 8px;
+}

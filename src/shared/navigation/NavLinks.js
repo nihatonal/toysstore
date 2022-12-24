@@ -18,7 +18,7 @@ function NavLinks(props) {
                 className={({ isActive }) =>
                     isActive ? "nav-item active-nav-item" : "nav-item"
                 }
-                to="/dalivery"
+                to="/delivery"
             >
                 Delivery
             </NavLink>

@@ -14,6 +14,6 @@
   padding: 2px;
 }
 .social_item:hover svg {
-  box-shadow: 0 0 5px var(--color_pink);
+  box-shadow: 0 0 15px var(--color_white);
   transition: all 0.2s;
 }
