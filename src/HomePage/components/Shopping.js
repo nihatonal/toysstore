@@ -17,6 +17,7 @@ function Shopping(props) {
     const cartHandler = (e) => {
         setCart([...cart, { 'id': e.target.parentNode.id, 'price': e.target.dataset['myval'], 'name': e.target.dataset['toyname'], 'image': e.target.dataset['toyimage'] }])
         share.buy([...cart, { 'id': e.target.parentNode.id, 'price': e.target.dataset['myval'] }]);
+        share.showModal(true)
     }
     const removeHandler = (x) => {
         const index = cart.findIndex(object => {
